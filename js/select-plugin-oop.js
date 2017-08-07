@@ -1,5 +1,5 @@
 class	Select {
-		constructor(parent='body',data='default_data',text=['shi','市','区']) {
+		constructor(parent='body',data='default_data',text=['省','市','区']) {
 			this.parent = document.querySelector(parent);
 			//获取数据
 			this.data = data;
