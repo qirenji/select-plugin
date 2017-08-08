@@ -80,10 +80,10 @@ class	Select {
 		//选择第二季后的变化
 		chg2() {
 			let val = this.cityEle.selectedIndex;
-			let as = areas[this.pIndex][val];
+			let as = this.areas[this.pIndex][val];
 			this.areaEle.options.length = 0;
 			for(let i=0;i<as.length;i++){
-				var op = new Options(as[i],i);
+				var op = new Option(as[i],i);
 				this.areaEle.options.add(op);
 			}
 		}
