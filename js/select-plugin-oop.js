@@ -11,6 +11,7 @@ class	Select {
 			this.areaEle = null;
 			//获取每级的数据
 			this.pres = data.province;
+			// console.log(data[0])
 			this.cities = data.city;
 			this.areas = data.county;
 			//默认状态
