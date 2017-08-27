@@ -78,7 +78,7 @@ class	Select {
 				this.areaEle.options.add(op);
 			}
 		}
-		//选择第二季后的变化
+		//选择第二级后的变化
 		chg2() {
 			let val = this.cityEle.selectedIndex;
 			let as = this.areas[this.pIndex][val];
