@@ -31,9 +31,9 @@ class	Select {
         <span>${this.text[2]}</span>:
         <select style="width: 100px;" id="area"></select>`;
       this.parent.innerHTML = _html;
-      this.preEle = document.querySelector('#pre');
-      this.cityEle = document.querySelector('#city');
-      this.areaEle = document.querySelector('#area');
+      this.preEle = this.parent.querySelector('#pre');
+      this.cityEle = this.parent.querySelector('#city');
+      this.areaEle = this.parent.querySelector('#area');
       for(let i=0; i<this.pres.length;i++){
       	let op = new Option(this.pres[i],i);
       	this.preEle.options.add(op);
