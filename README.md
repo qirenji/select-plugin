@@ -3,6 +3,8 @@
 ## 介绍
 一个中国地区的三级联动数据，也可以自定义数据。
 
+在线demo地址：http://www.qirenji.info/practices/select-plugin/
+
 ## 使用
 
 ### 默认数据
@@ -46,7 +48,7 @@
                 ]
               };
 	let selector1 = new Select('.container1',data, text)
-</script>Select('.container', data, text);
+</script>
 ```
 - 第一个参数是插件所在的父容器
 - 第二个参数是插件所要选择的数据（json形式）
